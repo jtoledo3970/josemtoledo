@@ -241,35 +241,18 @@ img { max-width: 100%; display: block; }
   border-radius: 50%;
 }
 
-/* Profile image placeholder */
+/* Profile image */
 .hero__image-wrapper {
   flex-shrink: 0;
 }
 
-.hero__image-placeholder {
+.hero__image {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  border: 2px dashed var(--border-light);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  color: var(--text-muted);
-  font-size: 0.75rem;
-  font-family: var(--font-mono);
-  transition: border-color var(--transition), color var(--transition);
-  cursor: default;
-  background: var(--bg-secondary);
+  object-fit: cover;
+  border: 2px solid var(--border-light);
 }
-
-.hero__image-placeholder:hover {
-  border-color: var(--accent-dim);
-  color: var(--text-secondary);
-}
-
-.hero__image-placeholder svg { opacity: 0.4; }
 
 /* ─── About ─── */
 .about__text {
