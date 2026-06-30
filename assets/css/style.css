@@ -328,6 +328,19 @@ img { max-width: 100%; display: block; }
   background: var(--bg-card);
 }
 
+.btn--blog {
+  background: rgba(77, 166, 255, 0.12);
+  color: #4da6ff;
+  border: 1px solid rgba(77, 166, 255, 0.25);
+}
+
+.btn--blog:hover {
+  background: rgba(77, 166, 255, 0.2);
+  border-color: rgba(77, 166, 255, 0.5);
+  box-shadow: 0 0 20px rgba(77, 166, 255, 0.12);
+  transform: translateY(-1px);
+}
+
 /* ─── Clearance Badge ─── */
 .clearance-badge {
   display: inline-flex;
