@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* ─── Scroll Reveal Animation ─── */
   const revealElements = document.querySelectorAll(
-    '.timeline__item, .education__card, .certs-list__item, .about__text p'
+    '.timeline__item, .education__card, .certs-card, .certs-award, .about__text p'
   );
 
   const revealObserver = new IntersectionObserver((entries) => {
